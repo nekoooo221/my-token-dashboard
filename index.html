@@ -1,0 +1,29 @@
+!DOCTYPE html
+html lang=en
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleMy Token Dashboardtitle
+    link rel=stylesheet href=style.css
+head
+body
+    h1Welcome to My Token Dashboardh1
+
+    div id=balance-container
+        h2Your Token Balanceh2
+        p id=balanceLoading...p
+    div
+
+    div id=token-price
+        h3Current Price $span id=priceLoading...spanh3
+    div
+
+    div id=token-image
+        h3Token Imageh3
+        img id=token-img src=loading.gif alt=Token Image
+    div
+
+    script src=httpscdnjs.cloudflare.comajaxlibsweb31.2.11web3.min.jsscript
+    script src=app.jsscript
+body
+html
